@@ -48,4 +48,6 @@ if [ "$(pwd)" = "$install_dir" ]; then
   ln -s "$jar" server.jar
 fi
 
-service minecraft restart
+if systemctl list-unit-files | grep minecraft ; then
+  service minecraft restart
+fi
