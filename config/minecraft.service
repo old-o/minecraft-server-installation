@@ -1,0 +1,20 @@
+[Unit]
+Description=Minecraft Server
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/minecraft-server
+ExecStart=/usr/bin/java -Xmx4G -Xms512M -jar server.jar nogui
+User=minecraft
+Group=minecraft
+ProtectHome=true
+ProtectSystem=full
+PrivateDevices=true
+NoNewPrivileges=true
+PrivateTmp=true
+InaccessibleDirectories=/root /sys /srv /media 
+ReadWriteDirectories=/opt/minecraft-server
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
