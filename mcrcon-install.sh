@@ -2,7 +2,7 @@
 
 git clone https://github.com/Tiiffi/mcrcon.git
 
-cd mcrcon
+cd mcrcon || exit 1
 make
 sudo make install
 
