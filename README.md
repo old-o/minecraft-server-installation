@@ -31,7 +31,7 @@ Wait until you see something like this:
 ## Administration
 
 * Run mcrcon command in a terminal 
-* Use help and help <command> to see what is available
+* Use "help" to see what is available
 * For example, to add a user to the whitelist:
 ```
 $ mcrcon 
