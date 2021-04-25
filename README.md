@@ -4,7 +4,7 @@ These scripts and config files automate installation of latest stable vanilla Mi
 
 ### Dependencies
 
-* Your OS must be Linux, or at least have bash, sudo, git, wget, systemd, grep, sed, make, adduser/deluser commands.
+* Your OS must be Linux, or at least have java, bash, sudo, git, wget, systemd, grep, sed, make, adduser/deluser commands.
 * The mcrcon admin tool will be downloaded from https://github.com/Tiiffi/mcrcon.git and built from source.
 
 ## Initial installation
