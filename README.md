@@ -6,7 +6,7 @@ These scripts and config files automate installation of latest stable vanilla Mi
 
 * Your OS must be Linux, or at least have java, bash, sudo, git, wget, systemd, grep, sed, make, adduser/deluser commands.
 * The mcrcon admin tool will be downloaded from https://github.com/Tiiffi/mcrcon.git and built from source.
-* The default memory allocation for the server process id 4 Gb of RAM.
+* The default memory allocation for the server process is 4 Gb of RAM.
 
 ## Initial installation
 
