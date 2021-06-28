@@ -2,6 +2,8 @@
 
 git clone https://github.com/Tiiffi/mcrcon.git
 
+sudo apt install make gcc
+
 cd mcrcon || exit 1
 make
 sudo make install
