@@ -1,5 +1,7 @@
 #! /bin/bash 
 
+sudo apt install wget
+
 install_dir="/opt/minecraft-server"
 
 usage() {
